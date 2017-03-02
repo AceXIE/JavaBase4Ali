@@ -1,2 +1,70 @@
 # JavaBase4Ali
 黑马程序员，基础练习，代码
+
+自学内容包括以下几个方面：
+
+1. Java基础
+	* 封装，多态，继承
+	* 内部类
+	* 内存结构
+	* 装箱，拆箱
+2. Java容器
+	* List
+		* ArrayList
+		* Vector
+	* Set 
+		* TreeSet--可以进行排序，实现Coparable中的compareTo方法 ，底层是二叉树
+		* HashSet--hashcode,equals()
+	* Map
+		* HashMap
+		* HashTable
+		* TreeMap
+	* Collections
+3. Java多线程，
+	* 继承Thread
+	* 实现Runnable
+	* 安全性
+		* wait(),nofity(),notifyAll()
+		* Sleep(),wait(),join()
+		* 
+4. Java网络TCP-UDP操作
+	* TCP
+		* Socket
+		* ServerSocket
+	* UDP 
+		* Datagram
+5. java.io.*中的操作
+	* 字节流
+		* InputStream
+		* OutputStream
+	* 字符流
+		* Reader
+		* Writer
+	* 流转换
+		* InputStreamReader()--输入字节流转为读字符流
+		* OutputStreamWriter()--输出字节流转为写字符流
+	* 合并流
+		* 多个流合并为同一个流
+	* RandomAccessFile
+		* 随机访问文件流
+		* 用于多线程下载
+	* 管道流--线程通讯，最好是多个线程
+		* PipedOutputStream
+		* PipedInputStream
+	* 序列化
+	* 操作基本数据的流
+		* DataOutputStream
+		* DataInputStream
+	* 操作字符串
+	* 操作字符数组的流
+6. 设计模式
+	* 单例设计
+		* 懒汉
+		* 饿汉
+	* 装饰设计
+		* BufferedReader
+		* BufferedWriter
+		* BufferedInputStream
+		* BufferedOutputStream
+7. GUI
+8. 正则表达式
